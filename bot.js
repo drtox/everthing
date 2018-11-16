@@ -1,23 +1,4 @@
-const Discord = require('discord.js');
-const client = new Discord.Client();
 
-
-client.on('ready', function() {
-    console.log(`i am ready ${client.user.username}`);
-});
-
-
-
-
-
-
-
-
-
-
-
-const developers = ["507978288250093568","",""]
-const adminprefix = "-";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
