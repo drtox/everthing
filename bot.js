@@ -11,13 +11,13 @@ client.on('ready', function() {
 
 
 
+///Fuck You Ayman
 
 
 
 
-
-const developers = ["528188581081120778","",""]
-const adminprefix = "#";
+const developers = ["الايدي حقك","",""]
+const adminprefix = "البريفكس الي تبيه";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
